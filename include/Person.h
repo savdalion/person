@@ -107,6 +107,14 @@ public:
 
 
 
+    inline Person& operator<<( const Character& ch ) {
+        mCharacter = ch;
+        return *this;
+    }
+
+
+
+
     inline Person& operator<<( const Info& info ) {
         mInfoMemory << info;
         return *this;

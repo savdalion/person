@@ -37,6 +37,10 @@ public:
         return t;
     }
 
+    inline operator float& () {
+        return t;
+    }
+
     /*
     template< typename T >
     inline void operator=( T value ) {

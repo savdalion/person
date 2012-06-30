@@ -54,6 +54,7 @@
     <IncludePath>$(BOOST_ROOT);D:\Projects\workspace\typelib\include;D:\Projects\workspace\utils\bm3.7.0\src;$(IncludePath)</IncludePath>
     <IntDir>V:\temp\debug-person\$(MSBuildProjectName)\</IntDir>
     <LibraryPath>$(BOOST_ROOT)\stage\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>V:\bin\debug-person\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

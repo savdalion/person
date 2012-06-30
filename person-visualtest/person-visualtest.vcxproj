@@ -43,6 +43,7 @@
     <LibraryPath>$(BOOST_ROOT)/stage/lib;$(LibraryPath)</LibraryPath>
     <LinkIncremental>false</LinkIncremental>
     <IntDir>V:\temp\debug-person\$(MSBuildProjectName)\</IntDir>
+    <OutDir>V:\bin\debug-person\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -50,6 +51,7 @@
       <Optimization>Disabled</Optimization>
       <TreatWarningAsError>true</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

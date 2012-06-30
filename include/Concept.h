@@ -64,6 +64,16 @@ public:
 
 
 
+    /**
+    * @return Число, однозначно соотв. данному понятию.
+    */
+    inline size_t hash() const {
+        return boost::hash_value( *this );
+    }
+
+
+
+
 
 
 private:

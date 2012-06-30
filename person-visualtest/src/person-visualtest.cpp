@@ -25,7 +25,7 @@ int main( int argc, char** argv ) {
         #endif
     #endif
 
-            
+
     setlocale( LC_ALL, "Russian" );
     // Для разделителя '.' вместо ','
     setlocale( LC_NUMERIC, "C" );
@@ -37,11 +37,16 @@ int main( int argc, char** argv ) {
     // Персонаж "Пчела"
     // @source http://ru.wikipedia.org/wiki/%D0%9F%D1%87%D1%91%D0%BB%D1%8B
     Person bee;
+
     // Рассказываем о персонаже
+    Character ch;
+    ch.set< hyp >( 50 );
+    bee << ch;
+
     bee << Info( "Моё имя - Пчела" );
 
     //std::cout << "После инициализации:\n" << bee() << "\n";
-    std::cout << "Персонаж после инициализации:\n";  typelib::print( std::cout, bee() );  std::cout << "\n";
+    std::cout << "Персонаж после инициализации:\n";  typelib::json::print( std::cout, bee() );  std::cout << "\n";
 
 
 
