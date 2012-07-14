@@ -37,7 +37,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\Projects\workspace\person\include;$(BOOST_ROOT);D:\Projects\workspace\utils\bm3.7.0\src;D:\Projects\workspace\utils\ezlogger;D:\Projects\workspace\typelib\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\Projects\workspace\person;$(BOOST_ROOT);D:\Projects\workspace\utils\bm3.7.0\src;D:\Projects\workspace\utils\ezlogger;D:\Projects\workspace\typelib;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LibraryPath>$(BOOST_ROOT)/stage/lib;$(LibraryPath)</LibraryPath>

@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="configure.h" />
     <ClInclude Include="include\Affection.h" />
     <ClInclude Include="include\AffectionMemory.h" />
     <ClInclude Include="include\Concept.h" />
@@ -22,6 +23,7 @@
     <ClInclude Include="include\Character.h" />
     <ClInclude Include="include\configure.h" />
     <ClInclude Include="include\Person.h" />
+    <ClInclude Include="person.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{914EF508-68BF-4D6A-8EA3-8CA784A9291D}</ProjectGuid>
@@ -51,7 +53,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(BOOST_ROOT);D:\Projects\workspace\typelib\include;D:\Projects\workspace\utils\bm3.7.0\src;$(IncludePath)</IncludePath>
+    <IncludePath>$(BOOST_ROOT);D:\Projects\workspace\typelib;D:\Projects\workspace\utils\bm3.7.0\src;$(IncludePath)</IncludePath>
     <IntDir>V:\temp\debug-person\$(MSBuildProjectName)\</IntDir>
     <LibraryPath>$(BOOST_ROOT)\stage\lib;$(LibraryPath)</LibraryPath>
     <OutDir>V:\bin\debug-person\</OutDir>

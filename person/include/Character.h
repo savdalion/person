@@ -1,7 +1,7 @@
 #pragma once
 
 #include "TraitCharacter.h"
-#include <other-type.h>
+#include <typelib/typelib.h>
 #include <memory>
 #include <tuple>
 #include <ostream>

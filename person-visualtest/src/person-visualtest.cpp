@@ -1,7 +1,7 @@
 #include "../include/StdAfx.h"
 #include "../include/configure.h"
-#include <Person.h>
-#include <json-type.h>
+#include <person/person.h>
+#include <typelib/typelib.h>
 
 
 /**

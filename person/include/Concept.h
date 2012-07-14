@@ -1,8 +1,7 @@
 #pragma once
 
 #include "configure.h"
-#include <other-type.h>
-#include <Name.h>
+#include <typelib/typelib.h>
 #include <memory>
 #include <ostream>
 

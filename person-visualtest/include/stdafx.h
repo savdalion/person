@@ -51,7 +51,6 @@
 
 
 #include <boost/lexical_cast.hpp>
-#include <boost/numeric/interval.hpp>
 
 
 // Отладка
