@@ -37,6 +37,11 @@ public:
     }
 
 
+    inline operator float& () {
+        return mLike;
+    }
+
+
 
     inline Like& operator<<( float value ) {
         ( *this ) = value;
